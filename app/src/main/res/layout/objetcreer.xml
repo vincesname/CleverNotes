@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"
+        android:text="caca"
+        android:id="@+id/TextTitleObjetCreer">
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/TableLayoutSaisie"
+        android:gravity="center">
+
+        <!--TITRE-->
+        <TableRow android:gravity="center">
+            <TextView
+                android:gravity="center"
+                android:text="Titre" />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <EditText
+                android:gravity="center"
+                android:id="@+id/SaisieTitreObjet"
+                android:maxEms="5"
+                android:maxLength="45"
+                android:hint="Saisir un titre"
+                android:background="@android:color/transparent"/>
+                <requestFocus />
+        </TableRow>
+
+        <!--DESCRIPTION-->
+        <TableRow android:gravity="center"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:gravity="center"
+                android:text="Description" />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <EditText
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:minLines="1"
+                android:gravity="center"
+                android:maxLines="10"
+                android:scrollbars="vertical"
+                android:maxLength="200"
+                android:hint="Saisir une description..."
+                android:id="@+id/SaisieDescObjet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="15"
+                android:inputType="textMultiLine"
+                android:background="@android:color/transparent">
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginEnd="-10dp"
+
+        android:layout_alignBottom="@id/TableLayoutSaisie"
+        android:layout_alignRight="@id/TableLayoutSaisie"
+        android:layout_alignEnd="@id/TableLayoutSaisie"
+
+        android:layout_marginBottom="-10dp"
+        android:text="Suivant"
+        android:id="@+id/ButtonNext"
+        android:layout_gravity="center_horizontal"
+        />
+</RelativeLayout>

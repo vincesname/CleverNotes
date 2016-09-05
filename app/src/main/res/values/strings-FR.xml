@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MesListes">Mes listes</string>
+    <string name="PersoListes">Persos</string>
+    <string name="PriveListes">Privées</string>
+    <string name="PublicListes">Publiques</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="LoremIpsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</string>
+    <string name="Brouillon">Brouillon</string>
+    <string name="liste">Liste</string>
+    <string name="liste_d_sordon_e">Liste désordonée</string>
+    <string name="liste_tapes">Liste à étapes</string>
+    <string name="s_lectionner">Sélectionner</string>
+    <string name="Sauvegarder">Sauvegarder</string>
+
+    <string name="DefaultNameBrouillon">Nouveau brouillon</string>
+    <string name="DefaultNameListe">Nouvelle liste</string>
+    <string name="DefaultNameListeDeso">Nouvelle liste à cocher</string>
+    <string name="DefaultNameListeEtapes">Nouvelle liste à étapes</string>
+
+</resources>

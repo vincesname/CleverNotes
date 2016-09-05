@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/TitreObjet"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="71dp"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:id="@+id/SaisieBrouillon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxEms="15"
+        android:inputType="textMultiLine"
+        android:background="@android:color/transparent">
+    </EditText>
+
+    <ImageButton
+        android:layout_marginTop="-69dp"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/valider"
+        android:background="@drawable/boutonrond"
+        android:id="@+id/ButtonSauvegarder"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:layout_marginTop="-60dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/settings"
+        android:background="@drawable/boutonrond"
+        android:id="@+id/ButtonParams"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="76dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:layout_marginTop="-50dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:visibility="visible"
+        android:background="@drawable/boutonrond"
+        android:id="@+id/ButtonDel"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="132dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:layout_marginTop="-50dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/edit"
+        android:visibility="visible"
+        android:background="@drawable/boutonrond"
+        android:id="@+id/ButtonEditer"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="187dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+
+
+
+
+
+
+
+</LinearLayout>
